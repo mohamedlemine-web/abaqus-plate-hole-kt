@@ -1,0 +1,24 @@
+# Abaqus job and session files (large or machine specific)
+*.odb
+*.cae
+*.jnl
+*.rpy*
+*.rec
+*.dat
+*.msg
+*.sta
+*.com
+*.prt
+*.sim
+*.lck
+*.ipm
+*.log
+*.mdl
+*.stt
+*.res
+*.sel
+*.023
+*.inp
+__pycache__/
+*.pyc
+runs/
