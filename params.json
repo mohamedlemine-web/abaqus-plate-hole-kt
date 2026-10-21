@@ -1,0 +1,13 @@
+{
+  "W": 100.0,
+  "L": 400.0,
+  "t": 10.0,
+  "E": 210000.0,
+  "nu": 0.3,
+  "sigma": 100.0,
+  "d_over_W": [0.1, 0.2, 0.3, 0.4, 0.5],
+  "arc_elements": 40,
+  "global_size_over_W": 0.02,
+  "convergence_d_over_W": 0.3,
+  "convergence_arc_elements": [10, 20, 40, 80]
+}
