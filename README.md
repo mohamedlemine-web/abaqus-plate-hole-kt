@@ -6,6 +6,10 @@ The test case is the classic finite-width plate with a central hole in tension. 
 
 ![Kt versus d/W](results/kt_vs_dW.png)
 
+![S22 field around the hole, d/W = 0.3](results/contour_S22.png)
+
+*S22 around the hole for d/W = 0.3. The peak is 338 MPa in the Abaqus/CAE display (75 % result averaging) and 335.6 MPa in the script, which averages the element-nodal values at the hole edge node. Both give Kt within 0.4 % of Peterson.*
+
 ## What the scripts do
 
 | File | Role |
