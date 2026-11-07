@@ -37,8 +37,7 @@ Kt,n = 2 + 0.284 (1 − d/W) − 0.600 (1 − d/W)² + 1.32 (1 − d/W)³
 
 All five cases agree with Peterson within 0.7 % (largest error at d/W = 0.5). Full table and mesh convergence check: [results/summary.md](results/summary.md).
 
-The mesh is free (unstructured), so Kt moves by about ±0.5 % between mesh levels instead of converging monotonically. A structured mesh around the hole would remove this scatter.
-
+The mesh is free (unstructured), so Kt scatters within about 1 % (2.339 to 2.361) across mesh levels instead of converging monotonically; the two finest meshes differ by 0.5 %. A structured mesh around the hole would remove this scatter.
 ## How to run
 
 ```
