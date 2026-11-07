@@ -51,7 +51,7 @@ pip install matplotlib
 python compare_peterson.py
 ```
 
-Change any value in `params.json` (plate size, hole sizes, mesh density) and run again. Abaqus job files are written to `runs/`. Tested with an Abaqus release running Python 2.7 (Abaqus 2023 or earlier).
+Change any value in `params.json` (plate size, hole sizes, mesh density) and run again. Abaqus job files are written to `runs/`. Tested with Abaqus 2020 (Python 2.7).
 
 ## Limits
 
